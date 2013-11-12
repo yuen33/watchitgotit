@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="app_description">File Transmission by QR Streams</string>
+	<string name="button_camera_shot">Shot</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_encode">Encode to QR Frames</string>
+	<string name="button_decode">Decode QR video</string>
+	<string name="button_decode_from_file">Decode from file</string>
+	<string name="button_decode_from_camera">Decode from Farst Burst Camera</string>
+	<string name="button_ok">OK</string>
+	<string name="button_open_decoded_file">Open</string>
+	<string name="button_save_encoded_image">Save as..</string>
+	<string name="confirm_decode_done">Decoded file:&lt;br/> %1$s</string>
+	<plurals name="confirm_delete_done">
+		<item quantity="zero">No files to delete</item>
+        <item quantity="one">File deleted</item>
+        <item quantity="other">%d files deleted.</item>
+    </plurals>
+	<string name="confirm_rename_done">File was renamed as:&lt;br/> %1$s</string>
+	<string name="confirm_title">Confirm</string>
+	<string name="confirm_write_done">File saved as:&lt;br/> %1$s</string>
+	<string name="error_camera_open">Could not open camera</string>
+	<string name="error_camera_preview">Could not get camera preview</string>
+	<string name="error_decode_notbitmap">File to decode is not a bitmap or it does not exist anymore.</string>
+	<string name="error_decode_notfiletype">Decoded QR is not a file: &lt;br/>&lt;br/>  &lt;small>&lt;i> %1$s &lt;/i>&lt;/small></string>
+	<string name="error_decode_codenotfound">Could not decode any code in the picture.</string>
+	<string name="error_decode_format">Code has wrong format.</string>
+	<string name="error_decode_checksum">Quality of the image is too low.</string>
+	<string name="error_decode_outofmemory">Not enough memory to complete operation.</string>
+	<string name="error_delete_failed">Could not delete file:&lt;br/> %1$s</string>
+	<string name="error_encode_failed">
+		Could not generate the QR: probably file is too big.
+	</string>
+	<string name="error_encode_contents_failed">Could not encode a QR Code from the data provided.</string>
+	<string name="error_file_manager_not_found">
+		&lt;i>IO FileManager &lt;/i> (www.openintents.org) is needed, please 
+		install it from Android Market!
+	</string>
+	<string name="error_open_failed">Failed to open file</string>
+	<string name="error_rename_failed">Could not rename file:&lt;br/> %1$s</string>
+	<string name="error_title">Error</string>
+	<string name="error_write_failed">Failed to write to storage</string>
+	<string name="file_manager_save_title">Save file</string>
+	<string name="file_manager_save_button">Save</string>
+	<string name="file_manager_open_title">Open file</string>
+	<string name="file_manager_open_button">open</string>
+	<string name="filelist_decodedfile">Decoded file</string>
+	<string name="filelist_encodedqr">Encoded QR</string>
+	<string name="filelist_filesize">Size</string>
+	<string name="filelist_empty">None</string>
+	<string name="info_about">
+			&lt;small>
+			Application: &lt;i> %1$s &lt;/i> &lt;br/>
+			Version: &lt;i> %2$s &lt;/i> &lt;br/>
+			License: &lt;i> %3$s &lt;/i> &lt;br/>
+			Author: &lt;i> %4$s &lt;/i> &lt;br/>
+			Email: &lt;i> %5$s &lt;/i> &lt;br/> &lt;br/>
+			Based on &lt;i> ZXing &lt;/i> (http://code.google.com/p/zxing/). &lt;br/>&lt;br/>
+			Needs &lt;i> OpenIntents IO FileManager &lt;/i> (www.openintents.org) to load files from filesystem. &lt;br/>&lt;br/>
+	</string>
+	<string name="info_about_title">About</string>
+	<string name="info_file">
+			&lt;small>
+			Name: &lt;i> %1$s &lt;/i> &lt;br/>
+			Folder: &lt;i> %2$s &lt;/i> &lt;br/>
+			Dimension: &lt;i> %3$s &lt;/i> &lt;br/>
+			Type: &lt;i> %4$s &lt;/i> &lt;br/>
+			Last modified: 	&lt;i> %5$s &lt;/i> &lt;br/>
+			&lt;/small>
+	</string>
+	<string name="info_file_mimeunknown">unknown</string>
+	<string name="info_file_title">File details</string>
+	<string name="label_cameradecode">Tap to control AutoFocus.</string>
+	<string name="label_decodedlist">Decode File from QR</string>
+	<string name="label_encodedlist">Encode File to QR</string>
+	<string name="label_encode">Encode result</string>
+	<string name="label_main">@string/app_name</string>
+	<string name="menu_about">About</string>
+	<string name="menu_delete">Delete</string>
+	<string name="menu_delete_all">Delete all</string>
+	<string name="menu_details">Details</string>
+	<string name="menu_open">Open</string>
+	<string name="menu_rename">Rename</string>
+	<string name="menu_rename_view">New file name:</string>
+	<string name="menu_share">Share</string>
+	<string name="menu_share_chooser">Share with:</string>
+	<string name="progress_decode_from_file">Decoding QR code</string>
+	<string name="progress_encode">Generating QR Code</string>
+	<string name="progress_write">Writing file</string>
+	<string name="warning_decode_aborted"></string>
+	<string name="warning_open_aborted">Open aborted</string>
+	<string name="warning_rename_aborted">Rename aborted</string>
+	<string name="warning_title">Warning</string>
+	<string name="warning_view_activity_not_found">Suitable viewer not found</string>
+
+</resources>

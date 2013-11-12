@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="uol.watchitgotit" android:versionCode="4"
+	android:versionName="@string/app_version">
+	
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+	
+	<application android:icon="@drawable/ic_launcher"
+	    android:largeHeap="true"
+		android:label="@string/app_name"
+		android:description="@string/app_description"
+		android:debuggable="true">
+
+		<activity android:name="uol.watchitgotit.activity.MainActivity"
+			android:label="@string/label_main">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name="uol.watchitgotit.activity.CameraDecodeActivity"
+			android:label="@string/label_cameradecode"
+			android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="uol.watchitgotit.activity.EncodeActivity"
+			android:label="@string/label_encode">
+		</activity>
+
+		<activity android:name="uol.watchitgotit.activity.DecodedListActivity"
+			android:label="@string/label_decodedlist">
+		</activity>
+
+		<activity android:name="uol.watchitgotit.activity.EncodedListActivity"
+			android:label="@string/label_encodedlist">
+		</activity>
+
+	</application>
+
+
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.FLASHLIGHT" />
+	<uses-feature android:name="android.hardware.camera" />
+ 	<uses-feature android:name="android.hardware.camera.autofocus" />
+
+</manifest> 

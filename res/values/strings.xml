@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buttonReceiver">Receiver</string>
+    <string name="buttonSender">Sender</string>
+    <string name="buttonBrowse">Browse</string>
+    <string name="buttonRecord">Record</string>
+    <string name="cameraHints_label"> Tap to switch AutoFocus</string>
+    <string name="button_capture">Start Capturing</string>
+    <string name="button_stop">Stop</string>
+    <string name="text_setting_warning">Keeping empty will use default settings.</string>
+    <string name="text_sendingfps">Sending FPS:</string>
+    <string name="text_capturingfps">Capturing FPS:</string>
+    <string name="text_bytes_per_frame">Number of Encoded Bytes \n
+        per Frame (&lt;2953):</string>
+    <string name="text_capturing_resolution">Capturing resolution:</string>
+    <string name="text_height">Height:</string>
+    <string name="text_width">Width:</string>
+    <string name="textview_filesize">File Size= </string>
+</resources>

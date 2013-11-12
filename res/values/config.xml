@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="author">Shanyue HUANG</string>
+	<string name="email">sgshuang@student.liv.ac.uk</string>
+
+	<string name="app_name">Watch it &amp; Got it</string>
+	<string name="app_license">Apache License v2.0</string>
+	<string name="app_version">v2</string>
+	<string name="app_folder">/sdcard/WatchitGotit</string>
+	<string name="decoded_folder">/sdcard/WatchitGotit/decoded</string>
+	<string name="encoded_folder">/sdcard/WatchitGotit/encoded</string>
+	
+	<string name="file_manager_intent_action">org.openintents.action.PICK_FILE</string>
+	<string name="file_manager_intent_extra_title">org.openintents.extra.TITLE</string>
+	<string name="file_manager_intent_extra_button">org.openintents.extra.BUTTON_TEXT</string>
+
+</resources>
